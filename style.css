@@ -1,12 +1,55 @@
 
 header {
-        padding: 25px;
-        background-color: gray;
-        text-align: center;
-        color: white;
-        font-family: Helvetica;
-       }
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* background-image: url("../images/hero-bg.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
  
+.hero {
+        /* background-image: url('../images/hero-bg.jpg'); */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        background-attachment: fixed;
+        background-position: 80%;
+      }
+
 .container {
         float: left;
         font-family: Helvetica;
@@ -15,17 +58,27 @@ header {
             }
 
 img {
-    border-radius: 50%;
+    border-radius: 65%;
     float: left;
-    padding: 10px 40px 10px 10px;
+    padding: 10px 10px 10px 10px;
         }
-
-.bio {
-    padding: 10px;
-}
 
 .contact {
     padding: 10px;
     width: 300px;
 }
+
+.contact {
+    background: #024e76;
+  }
+  
+  .contact h2 {
+    color: #fce138;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
