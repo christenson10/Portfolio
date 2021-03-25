@@ -13,21 +13,28 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: "./hero-background.jpeg";
+    background-image: url("./hero-background.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
   }
 
+.bio-image {
+  radius: 50%;
+  border-color: yellow;
+  border-width: 2px;
+  float: left;
+}
+
   .hero-cta {    
-    width: 35%;
-    text-align: right;
+    width: 90%;
     margin: 3.5%;
     color:black;
+    font-weight: bold;
     font-size: 18px;
     line-height: 1.2;
-  }
+    }
 
   header nav ul {
     display: flex;
@@ -53,7 +60,7 @@ header {
   }
  
 .hero {
-        background-image: "hero-background.jpeg";
+        background-image: url("./hero-background.jpeg");
         background-size: cover;
         background-position: center;
         display: flex;
@@ -62,6 +69,7 @@ header {
         align-items: flex-start;
         background-attachment: fixed;
         background-position: 80%;
+        height: 80%;
       }
 
 .container {
@@ -70,13 +78,6 @@ header {
         padding: 50px;
         display: flex;
             }
-
-.bio-image {
-    border-radius: 50%;
-    float: left;
-    padding: 10px 10px 10px 10px;
-        }
-
 
 .contact-info {
     display: flex;
@@ -87,4 +88,8 @@ header {
 .projects-spec img {
   width: 80%;
   align-items: center;
+}
+
+.about {
+  float: right;
 }
