@@ -5,20 +5,20 @@
 }
 
 header {
-    padding: 20px 35px;
-    background-color:grey;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-image: url("./hero-background.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-  }
+  padding: 20px 35px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("./hero-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
 
 .bio-image {
   radius: 50%;
@@ -27,63 +27,55 @@ header {
   float: left;
 }
 
-  .hero-cta {    
-    width: 90%;
-    margin: 3.5%;
-    color:black;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.2;
-    }
+.hero-cta {
+  width: 90%;
+  margin: 3.5%;
+ font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+}
 
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
-  header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 36px;
-    color: black;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
- 
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: black;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .hero {
-        background-image: url("./hero-background.jpeg");
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        background-attachment: fixed;
-        background-position: 80%;
-        height: 80%;
-      }
-
-.container {
-        float: left;
-        font-family: Helvetica;
-        padding: 50px;
-        display: flex;
-            }
+  background-image: url("./hero-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
 
 .contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 15px 15px 15px;
+}
 
 .projects-spec img {
   width: 80%;
@@ -92,4 +84,21 @@ header {
 
 .about {
   float: right;
+}
+
+.project-flex {
+  max-width: 85%;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  width: 75%;
+  padding: 15px;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
 }
