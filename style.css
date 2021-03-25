@@ -1,18 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color:grey;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* background-image: url("../images/hero-bg.jpg"); */
+    background-image: "./hero-background.jpeg";
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
+  }
+
+  .hero-cta {    
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color:black;
+    font-size: 18px;
+    line-height: 1.2;
   }
 
   header nav ul {
@@ -34,12 +48,12 @@ header {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: #fce138;
+    color: black;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
  
 .hero {
-        /* background-image: url('../images/hero-bg.jpg'); */
+        background-image: "hero-background.jpeg";
         background-size: cover;
         background-position: center;
         display: flex;
@@ -57,28 +71,20 @@ header {
         display: flex;
             }
 
-img {
-    border-radius: 65%;
+.bio-image {
+    border-radius: 50%;
     float: left;
     padding: 10px 10px 10px 10px;
         }
 
-.contact {
-    padding: 10px;
-    width: 300px;
-}
 
-.contact {
-    background: #024e76;
-  }
-  
-  .contact h2 {
-    color: #fce138;
-  }
-  
-  .contact-info {
+.contact-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
+.projects-spec img {
+  width: 80%;
+  align-items: center;
+}
