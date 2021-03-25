@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -25,6 +26,8 @@ header {
   border-color: yellow;
   border-width: 2px;
   float: left;
+  height: 100px;
+  width: 100px;
 }
 
 .hero-cta {
@@ -70,11 +73,10 @@ header h1 {
   background-position: 80%;
 }
 
-.contact-info {
-  display: flex;
-  justify-content: space-between;
+.project {
+  padding: 25px 25px 25px 25px;
+  text-align: center;
   flex-wrap: wrap;
-  padding: 15px 15px 15px 15px;
 }
 
 .projects-spec img {
@@ -92,13 +94,34 @@ header h1 {
   align-items: center;
 }
 
+.project-flex h2 {
+  text-align: center;
+}
+
 img {
   display: flex;
-  width: 75%;
+  width: 50%;
+  height: 50%;
   padding: 15px;
   justify-content: center;
 }
 
 .flex-row {
   display: flex;
+}
+
+.contact {
+  flex-wrap: wrap;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+footer h4 {
+  padding: 25px 25px 25px 25px;
+  text-align: center;
+  flex-wrap: wrap;
 }
