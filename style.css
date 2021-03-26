@@ -14,7 +14,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("./hero-background.jpeg");
+  background-image: url("./hero-background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -63,7 +63,7 @@ header h1 {
 }
 
 .hero {
-  background-image: url("./hero-background.jpeg");
+  background-image: url("./hero-background.jpg");
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -84,9 +84,14 @@ header h1 {
   align-items: center;
 }
 
+.section-title {
+  align-items: center;
+}
+
 .about {
   float: right;
-  padding: 30px;
+  padding: 10px;
+  border: 10px solid yellow;
 }
 
 #project-flex {
@@ -124,6 +129,8 @@ img {
 
 .flex-row {
   display: flex;
+  justify-content: center;
+  padding: 25px 0px 0px 0px;
   }
 
 #contact {
