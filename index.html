@@ -2,6 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alex Christenson</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
@@ -10,7 +11,7 @@
 <!-- navigation bar -->
     <header>
       <h1>
-        <a href="/">Alex Christenson</a>
+        <a>Alex Christenson</a>
       </h1>
       <nav>
         <ul>
@@ -29,7 +30,7 @@
 <!-- end navigation -->
 
 <!-- hero/bio -->
-    <section class="hero">
+    <section id="about" class="hero">
       <div class="hero-cta">
          <img id="bio-image" src=headshot.jpg alt="Alex Christenson"/> 
         <div class="about">
@@ -38,52 +39,53 @@
           Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche
           tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you
           probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
-        </div class="about">
+        </div>
       </div>
     </section>
 <!-- end hero -->
 
 <!-- projects -->
-         <section id="project-flex">
+         <section id="projects">
           <div class="flex-row">
           
             <h2 class="section-title primary-border">
             Projects
             </h2>
-          </div>
+            </div>
 
+            <div class="project">
             <article class="run-buddy">
-            <img src="./run-buddy-logo.jpg" alt="picture of legs running"/>
-            <div class="project">
-              <h3 class="project-name">Run Buddy</h3>
-              <h4 class="project-details">Connecting runners with a local trainer.</h4>
-              </div>
-              </article>
-              </div>
-    
-            <article class="project2">
-            <img src="./hot-sauce.jpg" alt="hot sauce and ingredients" />
-            <div class="project">
-              <h3 class="project-name">Sauce Rank</h3>
-              <h4 class="project-details">Rating your favorite hot sauces.</h4>
-              </div>
+            <img class="big-pic" src="./run-buddy-logo.jpg" alt="picture of legs running"/>
+            <h3 class="project-name">Run Buddy</h3>
+            <h4 class="project-details">Connecting runners with a local trainer.</h4>
             </article>
-            
-              <article class="project3">
-            <img src="./recipeat.jpeg" alt="female cooking, surrounded by ingredients"/>
-            <div class="project">
-              <h3 class="project-name">Recipeat</h3>
-              <h4 class="project-details">Recipe tool for an efficient kitchen.</h4>
             </div>
-          </article>
+        
+            <aside class="flex-box">
+            <div class="project">
+            <article class="project2">
+            <img class="small-pic" src="./hot-sauce.jpg" alt="hot sauce and ingredients" />
+            <h3 class="project-name">Sauce Rank</h3>
+            <h4 class="project-details">Rating your favorite hot sauces.</h4>
+            </article>
+            </div>
+
+            <div class="project">
+            <article class="project3">
+            <img class="small-pic" src="./recipeat.jpeg" alt="female cooking, surrounded by ingredients"/>
+            <h3 class="project-name">Recipeat</h3>
+            <h4 class="project-details">Recipe tool for an efficient kitchen.</h4>
+            </article>
+            </div>
  
-            <article class="project4">
-            <img src="./clean.jpg" alt="bucket and cleaning supplies" />
             <div class="project">
-              <h3 class="project-name">Clean.</h3>
-              <h4 class="project-details">Get connected with local cleaning crews.</h4>
+            <article class="project4">
+            <img class="small-pic" src="./clean.jpg" alt="bucket and cleaning supplies" />
+            <h3 class="project-name">Clean.</h3>
+            <h4 class="project-details">Get connected with local cleaning crews.</h4>
+            </article>
             </div>
-          </article>
+            </aside>
           
         </div>
         </section>
@@ -91,8 +93,8 @@
 
 <!-- contact info-->
     <div>
-      <div class="contact">
-      <h2>Contact Info</h2>    
+      <section id="contact">
+      <h2>Let's connect!</h2>    
         <ul>
           <li><strong>Email:</strong> <a href="mailto: christenson10@gmail.com">E-Mail Address</a></li>
           <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/christenson10/">LinkedIn Profile</a></li>
@@ -101,8 +103,7 @@
           <li><strong>Spotify:</strong> <a href="https://open.spotify.com/user/djohomum3yhyybr22q9s7ayry?si=2nC5vBgMQq6HONp0XLd9Kw">Spotify</a></li>
         </ul>
         </section>
-      </div>
-    </div>
+          </div>
 <!-- end contact section-->
 
 <!-- footer -->
