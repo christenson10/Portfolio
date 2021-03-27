@@ -84,14 +84,15 @@ header h1 {
   text-align: center;
   flex-wrap: wrap;
 }
-
+/* 
 #projects {
   align-items: center;
-}
+} */
 
-.section-title {
+/* .section-title {
   align-items: center;
-}
+  padding-left: 25px;
+} */
 
 .about {
   float: right;
@@ -103,21 +104,21 @@ header h1 {
   /* vertical-align: middle; */
 }
 
-#project-flex {
+/* #project-flex {
   max-width: 85%;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.flex-box {
+/* .flex-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-} 
+}  */
 
-#project-flex h2 {
+/* #project-flex h2 {
   text-align: center;
-}
+} */
 
 img {
   display: inline-block;
@@ -140,16 +141,28 @@ img {
   display: flex;
   justify-content: center;
   padding: 25px 0px 0px 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
   }
+
+.flex-row>div {
+  flex: 0 1 33%;
+}
+
+.flex-row>div:first-child {
+  flex: 0 1 100%;
+}  
 
 #contact {
   flex-wrap: wrap;
   padding: 25px 25px 25px 25px;
   text-align: center;
+  display: flex;
 }
 
 #contact ul {
   list-style-type: none;
+  margin: 0 auto;
 }
 
 footer h4 {
@@ -175,7 +188,7 @@ header nav ul li a:hover {
     width: 100%;
   }
 
-  .flex-box {
+  .flex-row {
     width: 100%;
     flex-direction: column;  
   }
