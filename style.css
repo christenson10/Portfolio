@@ -19,6 +19,7 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-position: 80%;
+  z-index: 999;
 }
 
 #bio-image {
@@ -80,10 +81,16 @@ header h1 {
 }
 
 .project {
-  padding: 25px 25px 25px 25px;
   text-align: center;
   flex-wrap: wrap;
 }
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px 0px 50px;
+}
+
 /* 
 #projects {
   align-items: center;
@@ -98,10 +105,14 @@ header h1 {
   float: right;
   padding: 10px;
   border: 10px solid yellow;
-  background: lightgrey;
-  opacity: 75%;
+  background: rgba(211, 211, 211, .75);
+
   /* font: black; */
   /* vertical-align: middle; */
+}
+
+.about p {
+  color: black;
 }
 
 /* #project-flex {
@@ -155,8 +166,7 @@ img {
 
 #contact {
   flex-wrap: wrap;
-  padding: 25px 25px 25px 25px;
-  text-align: center;
+  padding: 25px;
   display: flex;
 }
 
