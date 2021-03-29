@@ -15,6 +15,7 @@ Building a professional portfolio page.
 * Images are titled and are also functioning links to external sites (dummy projects other than Run Buddy)
 * Pictures and about section are responsive for mobile viewing using media queries
 * Resembles functionality of assignment mock-up
+* Created on "Develop" branch and merged into "Main" branch after completion
 
 ## Link
 https://christenson10.github.io/Portfolio/
