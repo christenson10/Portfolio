@@ -12,8 +12,8 @@ Building a professional portfolio page.
 * Portfolio contains a recent photo and links to sections from the header
 * Header links work properly and scroll to correct location
 * Images are different sizes
-* Images are titled and are also functioning links to external sites
-* Page is responsive for mobile viewing using media queries
+* Images are titled and are also functioning links to external sites (dummy projects other than Run Buddy)
+* Pictures and about section are responsive for mobile viewing using media queries
 * Resembles functionality of assignment mock-up
 
 ## Link
