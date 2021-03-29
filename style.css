@@ -205,10 +205,13 @@ header nav ul li a:hover {
   box-shadow: black;
 }
 
+
+/**for screens under 768px**/
+
 @media screen and (max-width: 768px) {
   .hero-cta {
     flex-direction: column;
-      }
+  }
 
   .flex-row {
     width: 100%;

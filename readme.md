@@ -21,10 +21,10 @@ https://christenson10.github.io/Portfolio/
 
 ## Pictures
 
-![Screenshot1](/screenshot1.jpg "Screenshot 1")
-![Screenshot2](/screenshot2.jpg "Screenshot 2")
-![Responsive1](/responsive1.jpg "Responsive 1")
-![Responsive2](/responsive2.jpg "Responsive 2")
+![Screenshot1](screenshot1.jpg)
+![Screenshot2](screenshot2.jpg)
+![Responsive1](responsive1.jpg)
+![Responsive2](responsive2.jpg)
 
 ## Created by:
 Alex Christenson, 2021.
