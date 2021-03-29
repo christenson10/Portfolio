@@ -206,10 +206,9 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  #about {
+  .hero-cta {
     flex-direction: column;
-    width: 100%;
-  }
+      }
 
   .flex-row {
     width: 100%;
